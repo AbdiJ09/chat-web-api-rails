@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  get "up" => "rails/health#show", as: :rails_health_check
+  root to: proc { [ 200, { "Content-Type" => "application/json" }, [ {
+    status: "ok",
+    message: "API is running",
+    version: "1.0.0"
+  }.to_json ] ]}
   namespace :api do
     resources :chatrooms, only: [ :index,  :create, :show ] do
       member do
