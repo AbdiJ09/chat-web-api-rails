@@ -1,0 +1,10 @@
+# Add configuration values here, as shown below.
+#
+pusher_app_id: "1896572"
+pusher_key: c32b80e383a5180cf457
+pusher_secret: d2033a90b1835bffbd7b
+PUSHER_CLUSTER: "api"
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+# config/application.yml

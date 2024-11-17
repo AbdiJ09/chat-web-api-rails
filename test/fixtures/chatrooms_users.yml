@@ -1,0 +1,8 @@
+# fixtures/chatrooms_users.yml
+chatroom_one_user_one:
+  chatroom_id: 1
+  user_id: 1
+
+chatroom_one_user_two:
+  chatroom_id: 1
+  user_id: 2

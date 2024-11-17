@@ -1,0 +1,14 @@
+### POST send message
+POST http://localhost:3000/api/chatrooms/2/messages HTTP/1.1
+Content-Type: application/json
+
+{
+  "message": {
+    "content": "Apaan lo"
+  },
+  "user_id": 68
+}
+
+### GET all messages
+GET http://localhost:3000/api/chatrooms/2/messages HTTP/1.1
+Content-Type: application/json
