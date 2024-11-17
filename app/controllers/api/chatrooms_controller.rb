@@ -42,7 +42,7 @@ class Api::ChatroomsController < ApplicationController
 
   def leave_chatroom
     chatroom = Chatroom.find_by(id: params[:id])
-    user = User.find_by(id: params[:id])
+    user = User.find_by(id: params[:user_id])
     chatroom.users.delete(user)
     render json: { message: "User left the chatroom" }, status: :ok
   end

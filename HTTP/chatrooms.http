@@ -1,5 +1,5 @@
 ### GET All Chatrooms
-GET http://localhost:3000/api/chatrooms HTTP/1.1
+GET https://chat-web-api-rails.onrender.com/api/chatrooms HTTP/1.1
 Content-Type: application/json
 
 ### POST Create Chatroom
